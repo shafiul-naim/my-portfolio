@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Electool",
+      "description": "This is a MERN based manufacturing industry of electric tools website using Tailwind CSS and daisyUI.This website is protected by  React router and connected to MongoDB by node.js. It also has secure authentication with firebase. Admin can make another user admin and manage orders and items. Also, the admin can cancel orders and add items. Users can purchase items and make payments. They can manage their orders and cancel them",
+      "minimumQuantity": "50",
+      "availableQuantity": "500",
+      "ppu": "500"
+    },
+    {
+      "name": "Insulated screwdrivers",
+      "description": "Screwdrivers are one of the most traditional of tools but are still indispensable for most electricians who frequently require access to electrical containers sealed with screws. There are multiple sizes and shapes available for compatibility with the abundance of screw designs. ",
+      "img": "https://i.ibb.co/KWbYQF6/screwdricvers.jpg",
+      "minimumQuantity": "30",
+      "availableQuantity": "300",
+      "ppu": "400"
+    },
+    {
+      "name": " Insulated pliers",
+      "description": "Pliers are another tool that has been with us for a long time. Their versatility means they can be used to accomplish a multitude of tasks requiring ‘torque’, working in a much more robust manner than would be possible with the use of bare hands alone.",
+      "img": "https://i.ibb.co/KWbYQF6/screwdricvers.jpg",
+      "minimumQuantity": "25",
+      "availableQuantity": "400",
+      "ppu": "350"
+    }
+  ]
+  
