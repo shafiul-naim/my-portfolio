@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+    const navigate = useNavigate();
+    const navigateToHome = () => {
+        navigate('/')
+    }
   return (
     <div class="navbar sticky top-0 z-40 px-12" style={{ backgroundColor: '#010a13'}}>
       <div class="navbar-start">
@@ -34,7 +39,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <a class="btn btn-ghost normal-case text-xl">Portfolio</a>
+        <a onClick={navigateToHome} class="btn btn-ghost normal-case text-xl">Portfolio</a>
       </div>
       <div class="navbar-end hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
