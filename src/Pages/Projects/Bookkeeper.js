@@ -40,46 +40,49 @@ const Bookkeeper = () => {
             <div class="badge bg-[#010a13] mx-2 badge-outline">MongoDB</div>
           </div>
         </div>
-        <div className="flex mt-8 flex-col">
-          <div className="flex items-center mx-4 text-green-200 hover:text-stone-500">
+        <div class="divider"></div> 
+        <div className="grid lg:grid-cols-3 w-5/6 mx-auto">
+            
+          <div className="flex items-center  text-green-200 hover:text-stone-500   w-3/6">
             <CgWebsite size={24}></CgWebsite>
             <a
               href="https://warehouse-management-a-11.web.app/"
               alt="github"
               target="_blank"
               rel="noreferrer"
-              className="text-xl ml-2"
+              className="lg:text-xl my-2 sm:text-sm  "
             >
               Live site
             </a>
           </div>
-          <div className="flex items-center mx-4 text-slate-400 hover:text-stone-500">
+          <div className="flex items-center  text-slate-400 hover:text-stone-500 w-3/6">
             <AiOutlineGithub size={24}></AiOutlineGithub>
             <a
               href="https://github.com/shafiul-naim/book-keeper-A-11-server"
               alt="github"
               target="_blank"
               rel="noreferrer"
-              className="text-xl ml-2"
+              className="lg:text-xl my-2 sm:text-sm"
             >
               Server side
             </a>
           </div>
-          <div className="flex items-center mx-4 text-slate-400 hover:text-stone-500">
+          <div className="flex items-center text-slate-400 hover:text-stone-500  w-3/6">
             <AiOutlineGithub size={24}></AiOutlineGithub>
             <a
               href="https://github.com/shafiul-naim/book-keeper-A-11"
               alt="github"
               target="_blank"
               rel="noreferrer"
-              className="text-xl ml-2"
+              className="lg:text-xl my-2 sm:text-sm"
             >
               Client side
             </a>
           </div>
         </div>
+        <div class="divider"></div> 
       </div>
-
+      
       <div className="lg:w-9/12 sm:w-full mx-auto my-8">
         <div class="carousel  rounded-box">
           <div class="carousel-item ">
